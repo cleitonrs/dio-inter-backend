@@ -3,7 +3,7 @@ class AppError {
   public readonly statusCode: number
   public readonly data?: any
 
-  constructor(message: string, statusCode: 400, data?: any) {
+  constructor(message: string, statusCode: 401, data?: any) {
     this.message = message
     this.statusCode = statusCode
     this.data = data
